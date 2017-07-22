@@ -1,0 +1,241 @@
+/*========================Basic Form elements==========================*/
+.focus_input{
+    border-color: #66afe9;
+}
+.input_icon{
+    position: relative;
+}
+.input_icon_left,.input_icon_right{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 36px;
+    text-align: center;
+}
+.input_icon_left{
+    left: 8px;
+}
+.input_icon_right{
+    right: 8px;
+}
+.icon_right_input{
+    padding-right: 40px;
+}
+#color.form-control{
+    padding: 0.2rem 0.75rem;
+}
+
+/*============================End of Basic Form elements========================*/
+
+/*=======================Advanced form elements=================================*/
+.input-group-addon .custom-control-indicator{
+    margin-left: 2px;
+}
+.text-white::-webkit-input-placeholder{
+    color: #fff ;
+}
+.addon_img{
+    width: 45px;
+    height: 50px;
+}
+.has-primary .input-group-addon,.has-primary input{
+    border-color: #329cff;
+}
+.has-primary input{
+    opacity: 0.8;
+}
+.br_left_25{
+    border-radius: 25px 0 0 25px !important;
+}
+.br_right_25{
+    border-radius: 0 25px 25px 0 !important;
+}
+.addon_left_img img{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.addon_right_img img{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/*plugin css*/
+.chosen-container{
+    width: 100% !important;
+}
+.chosen-container-single .chosen-single {
+    height: 34px;
+    padding: 3px 0 0 8px;
+}
+.chosen-container-single .chosen-single div,.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top:5px;
+}
+.chosen-container-multi .chosen-choices,.select2-container--default .select2-selection--single,
+.select2-selection.select2-selection--single{
+    padding: 3px 6px;
+}
+.select2-container--default .select2-selection--single,.select2-container--classic .select2-selection--single{
+    height: 34px;
+}
+.select2-container--classic .select2-selection--single .select2-selection__arrow{
+    height: 32px;
+}
+.img_flag{
+    width: 20px;
+    height: 15px;
+}
+.select2.select2-container{
+    width: 100%;
+}
+/*End of plugin css*/
+/*choices*/
+.choices__list--multiple .choices__item{
+    background-color: #5aca82;
+    border:1px solid #5aca82;
+}
+/*End of choices*/
+/*================================End Advanced form elements==============================*/
+
+/*===============================Advanced form elements2======================================*/
+/*File input*/
+.kv-upload-progress>.progress, .fileinput-cancel-button {
+    display: none;
+}
+.file-zoom-fullscreen .modal-dialog{
+    max-width: 100%;
+}
+@media (max-width:992px) {
+    .hidden-xs {
+        display:none !important;
+    }
+    .file-preview-image, .file-preview-text {
+        max-width: 100% !important;
+    }
+}
+.button_file .btn-file {
+    width: 100%;
+}
+.file_input .form-control{
+    padding: 0.25rem 0.75rem;
+}
+.file-caption-main{
+    margin-top: 15px;
+}
+.button_file .file-input.theme-fa .btn-file{
+    margin-top: 10px;
+}
+.file_input a.btn-default{
+    background-color: #ccc;
+    color: #000;
+}
+.file_input a.btn-default:hover{
+    color: #000;
+}
+.file-caption-main .input-group-btn{
+    display: block;
+}
+.modal-header{
+    flex-direction: row-reverse;
+}
+.file-zoom-content img{
+    width: 100% !important;
+}
+.file-thumb-progress .progress{
+    margin-top: 5px;
+}
+/*End of file input*/
+
+/*multiselect*/
+.ms-container{
+    width: 100%;
+}
+.ms-selectable input,.ms-selection input{
+    width:100%;
+}
+.custom-header {
+    text-align: center;
+    padding: 3px;
+    background: #329cff;
+    color: #fff;
+}
+.ms-container .ms-selectable li.ms-hover, .ms-container .ms-selection li.ms-hover{
+    background-color:#329cff;
+}
+.ms-container .ms-selectable li.disabled, .ms-container .ms-selection li.disabled{
+    color: #525252;
+}
+#ms-multi_select3 .ms-list,#ms-multi_select4 .ms-list{
+    border-radius: 0;
+}
+#ms-multi_select4 input{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.jump_next_field .form-group{
+    width:100%;
+}
+/*End of multiselect*/
+/*===============================End of Advanced form elements2===========================================*/
+
+/*================================================file upload=======================================================*/
+.modal{
+    top:0;
+}
+.header{
+    z-index: 100 !important;
+}
+.left_aside{
+    z-index: 99 !important;
+}
+/*=================advanced file upload=========================*/
+.file-zoom-dialog .kv-zoom-actions .btn, .floating-buttons .btn{
+    margin-top: 5px;
+}
+/*========================End of advanced file upload==================*/
+@media only screen and (max-width : 767px) {
+    .jquery_file_upload .files img,
+    .jquery_file_upload .files canvas {
+        max-width : none;
+    }
+}
+
+.jquery_file_upload .fade.in{
+    opacity: 1;
+}
+.jquery_file_upload .label-danger{
+    background-color: #f86a67;
+    color: #fff3d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+.jquery_file_upload .custom-control-indicator{
+    margin-top: 12px;
+}
+
+/*================================dropify=============================*/
+.dropify-wrapper .dropify-errors-container{
+    background: #f86a67;
+}
+.dropify-wrapper.has-error{
+    border-color: #f86a67;
+}
+.dropify-wrapper .dropify-message p.dropify-error{
+    color: #f86a67;
+}
+.dz-image img{
+    width: 100%;
+}
+/*layout fixed header*/
+.fixed_header .file-zoom-fullscreen{
+    z-index: 99999;
+}
+.fixed_header .file-zoom-fullscreen .modal-dialog{
+    top:0;
+}
+.fixed_header .modal{
+    top:60px;
+}
+#scroll{
+    z-index: 999;
+}
+/*===========================End of dropify=============================*/
+/*====================================================End of file upload===========================================*/

@@ -1,0 +1,343 @@
+.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+    transform: rotate(180deg);
+}
+.btn_animation button
+{
+    width: 90%;
+}
+.hvr-icon-drop:before
+{
+    content: "\e642";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-float-away:before, .hvr-icon-float-away:after
+{
+    content: "\e726";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-grow-rotate:before
+{
+
+    content: "\e60f";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-wobble-horizontal:before{
+    content: "\e6af" ;
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-bounce:before{
+    content: "\e670" ;
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-pulse:before
+{
+    content: "\e6b1";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-hang:before{
+    content: "\e65f";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-drop:before{
+    content: "\e61d";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+.hvr-icon-spin:before
+{
+    content:"\e619";
+    font-family: 'themify';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*start animated buttons css*/
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.special-link {
+    position: relative;
+    color: #f86a67;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.special-link svg {
+    left: 0;
+}
+
+.special-link:hover,
+.special-link:focus {
+    color: #D52828;
+}
+
+/* Header */
+
+.codrops-header {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 1.75em 0.85em 1.5em;
+    letter-spacing: 1px;
+}
+
+.main-title {
+    font-size: 2.5em;
+    line-height: 1;
+    padding: 1em 0.5em 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.main-title__upper {
+    display: block;
+    padding: 0 0 1.5em 0;
+    font-size: 0.65em;
+    color: #aaa;
+    letter-spacing: 5px;
+    text-indent: 5px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.dotted {
+    color: #f86a67;
+}
+
+.dotted::before,
+.dotted::after {
+    content: '\2022';
+    font-size: 0.75em;
+    opacity: 0.4;
+}
+
+.main-info {
+    padding: 2em 1em 0;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #D1CECE;
+    max-width: 40em;
+    text-align: center;
+}
+
+/* Top Navigation Style */
+
+.codrops-links {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    pointer-events: auto;
+}
+
+.codrops-links::after,
+.codrops-demos a:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #aaa;
+    -webkit-transform: translateY(-50%) rotate3d(0, 0, 1, 22.5deg);
+    transform: translateY(-50%) rotate3d(0, 0, 1, 22.5deg);
+}
+
+.codrops-icon {
+    display: inline-block;
+    width: 1.5em;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+.codrops-icon span {
+    display: none;
+}
+
+.codrops-icon::before {
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    margin: 0 5px;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    speak: none;
+}
+
+.codrops-icon--drop::before {
+    content: '\e001';
+    color:#937eff;
+}
+
+.codrops-icon--prev::before {
+    content: '\e004';
+}
+
+
+/* Demo links */
+.codrops-demos {
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 1em 0 auto;
+    text-align: center;
+}
+
+.codrops-demos a {
+    position: relative;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+.codrops-demos a:not(:last-child)::after {
+    left: calc(100% + 0.5em);
+}
+
+.codrops-demos a:not(:last-child) {
+    margin: 0 1em 0.1em 0;
+}
+
+.codrops-demos a.current-demo {
+    color: #504f55;
+}
+
+
+/* Content */
+.grid {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+.grid__item {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    margin: 0 0 5em;
+    width: 100%;
+    min-height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.grid__item::before {
+    display: none;
+}
+
+/* Related demos */
+
+.content--related {
+    font-weight: bold;
+    padding: 8em 1em;
+    margin: 15em 0 0;
+    text-align: center;
+    background: #26252a;
+    color: #f0f0f0;
+}
+
+.media-item {
+    display: inline-block;
+    padding: 1em;
+    vertical-align: top;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.media-item__img {
+    max-width: 100%;
+    opacity: 0.3;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.media-item:focus .media-item__img,
+.media-item:hover .media-item__img {
+    opacity: 1;
+}
+
+.media-item:focus,
+.media-item:hover {
+    color:#937eff;
+}
+
+.media-item__title {
+    font-size: 1em;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.github-corner svg {
+    fill:#937eff;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+    0%,100% {
+        transform: rotate(0deg);
+    }
+    20%,60% {
+        transform: rotate(-25deg);
+    }
+    40%,80% {
+        transform: rotate(10deg);
+    }
+}
+
+@media (max-width: 40em) {
+    .github-corner:hover .octo-arm {
+        animation: none;
+    }
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+    }
+}
+
+/*start animated buttons css*/
+@media (max-width:576px)
+{
+    .btn_animation button
+    {
+        width: 100%;
+    }
+}

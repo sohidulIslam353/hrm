@@ -1,0 +1,10 @@
+.c3-line{
+    stroke-width: 2px;
+}
+svg text, svg text tspan{
+    font-family: "Nunito Sans", sans-serif;
+}
+.c3 svg g{
+    font: 12px "Nunito Sans";
+
+}

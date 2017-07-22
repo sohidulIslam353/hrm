@@ -1,0 +1,98 @@
+div.rating-container {
+    position: relative;
+}
+div.rating-container div.counter {
+    display: none;
+    position: absolute;
+    min-width: 20px;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 0;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    right: -50px;
+    margin-top: -10px;
+    color: white;
+}
+div.rating-container div.counter:before,
+div.rating-container div.counter ::before {
+    content: "";
+    width: 0;
+    height: 0;
+    top: 50%;
+    margin-top: -5px;
+    display: block;
+    border-color: transparent rgba(0, 0, 0, 0.8) transparent transparent;
+    border-width: 5px 5px 5px 0;
+    left: -10px;
+    border-style: solid;
+    position: relative;
+}
+div.rating-container:hover div.counter {
+    display: block;
+}
+div.main-content {
+    padding-left: 200px;
+    position: relative;
+}
+.jq-ry-container{
+    margin-left: -5px;
+}
+.barratings_section .dotted{
+    min-height: 180px;
+}
+.counter_stars {
+    min-height: 120px;
+}
+.ratings .card,.Starability .card{
+    min-height: 150px;
+}
+.br-theme-bars-1to10 .br-widget a.br-active, .br-theme-bars-1to10 .br-widget a.br-selected{
+    background-color: #fcb410;
+}
+.br-theme-bars-movie .br-widget a.br-active, .br-theme-bars-movie .br-widget a.br-selected{
+    background-color: #329cff;
+}
+.br-theme-bars-pill .br-widget a.br-active, .br-theme-bars-pill .br-widget a.br-selected{
+    background-color: #5aca82;
+}
+.br-theme-bars-square .br-widget a.br-active, .br-theme-bars-square .br-widget a.br-selected {
+    border: 2px solid #937eff;
+    color: #937eff;
+}
+.br-theme-bars-reversed .br-widget a.br-active, .br-theme-bars-reversed .br-widget a.br-selected{
+    background-color: #f86a67;
+}
+.br-theme-bars-reversed .br-widget a{
+    background-color: rgba(248,106,103,0.44);
+}
+.br-theme-bars-reversed .br-widget .br-current-rating{
+    color:#f86a67;
+}
+.br-theme-bars-horizontal .br-widget a.br-active, .br-theme-bars-horizontal .br-widget a.br-selected{
+    background-color: #31d0d6;
+}
+.br-theme-bars-horizontal .br-widget .br-current-rating{
+    color:#31d0d6;
+
+
+}
+.br-theme-bars-horizontal .br-widget a{
+    background-color: rgba(49,208,214,0.44);
+    height:10px;
+    margin-top: 3px;
+}
+
+.br-widget{
+    margin-top: 30px;
+}
+.header,.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+.left_aside,.skin_settings,#right_section{
+    z-index: 99 !important;
+}
+#scroll{
+    z-index: 999;
+}

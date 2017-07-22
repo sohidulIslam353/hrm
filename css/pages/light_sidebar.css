@@ -1,0 +1,52 @@
+/*start layout css*/
+.wrapper{
+    padding: 20px 10px 0 30px;
+}
+.content {
+    padding: 0 15px 25px 20px;
+}
+.hide_menu .content{
+    padding-left: 0;
+}
+.content-header h4 {
+    padding: 15px 0 15px 30px;
+}
+
+.left_aside {
+    width: 250px;
+    background-color: transparent;
+    box-shadow: none;
+}
+.left_aside ul{
+    list-style: none;
+}
+.left_aside #menu{
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 3px 0 6px 0 rgba(0, 0, 0, 0.05),  -3px 2px 15px 2px rgba(0, 0, 0, 0.1);
+}
+.right-aside
+{
+    padding-top: 0 !important;
+}
+.content> .row:first-child{
+    margin-top: -30px;
+}
+
+@media (max-width: 992px) {
+    .content-header
+    {
+        padding-top: 56px;
+    }
+    .left_aside {
+        left: 0;
+        box-shadow: 3px 0 6px 0 rgba(0, 0, 0, 0.05), 3px 0 15px 0 rgba(0, 0, 0, 0.1);
+    }
+    #menu ul{
+        margin-bottom: 0;
+    }
+
+}
+
+
+/*end layout css*/

@@ -1,0 +1,149 @@
+
+.icon-megaphone:before{
+    content: "\e64f";
+    font-family: themify;
+    font-size: 22px;
+}
+.icon-settings:before{
+    content: "\e60f";
+    font-family: themify;
+    font-size: 22px;
+}
+.lobibox-notify .lobibox-notify-title{
+    font-family: "Roboto Slab", serif;
+}
+.lobibox-notify-msg{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+.lobibox-notify.lobibox-notify-success{
+    background-color: rgba(90,202,130,0.9);
+}
+.lobibox-notify.lobibox-notify-success:hover{
+    background-color: rgba(90,202,130,0.9);
+    border-color:#24a370;
+}
+
+
+.lobibox-notify.lobibox-notify-info{
+    background-color: rgba(0,123,184,0.9);
+}
+.lobibox-notify.lobibox-notify-info:hover{
+    background-color: rgb(0,123,184);
+    border-color: #296ba0;
+}
+
+
+.lobibox-notify.lobibox-notify-warning{
+    background-color: rgba(252,180,16,0.9);
+}
+.lobibox-notify.lobibox-notify-warning:hover{
+    background-color: rgb(252,180,16);
+    border-color: #b97429;
+}
+.lobibox-notify.lobibox-notify-error{
+    background-color: rgba(248,106,103,0.9);
+}
+.lobibox-notify.lobibox-notify-error:hover{
+    background-color: rgb(248,106,103);
+    border-color:#b41d1d;
+}
+
+.lobibox-notify.rounded{
+    border-radius: 30px;
+}
+
+/*-----------------no need-------*/
+.runner{
+    cursor:pointer;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+.runner.btn-outline-success{
+    border: 1px solid #5aca82;
+    border-top: 3px solid #5aca82 !important;
+}
+.runner.btn-outline-danger{
+    border: 1px solid #f86a67;
+    border-top: 3px solid #f86a67 !important;
+}
+.runner.btn-outline-primary,.toastrshow.btn-outline-primary{
+    border: 1px solid #329cff;
+    border-top: 3px solid #329cff !important;
+}
+.runner.btn-outline-warning,.toastrshow.btn-outline-warning {
+    border: 1px solid #fcb410;
+    border-top: 3px solid #fcb410 !important;
+}
+.runner.btn-outline-info {
+    border: 1px solid #007bb8;
+    border-top: 3px solid #007bb8 !important;
+}
+.runner.btn-outline-purple {
+    border: 1px solid #937eff;
+    border-top: 3px solid #937eff !important;
+}
+.runner.btn-outline-mint {
+    border: 1px solid #31d0d6;
+    border-top: 3px solid #31d0d6 !important;
+}
+
+
+.ns-effect-thumbslider .ns-content{
+    background: #31d0d6;
+    color:#fff;
+}
+.ns-effect-exploader{
+    background:#5aca82;
+    color:#fff;
+}
+.ns-bar .ns-close::before, .ns-bar .ns-close::after{
+    background:#fff;
+    font-size: 16px;
+}
+.ns-effect-boxspinner{
+    background: #fcb410;
+}
+.ns-effect-loadingcircle{
+    background: #937eff;
+    border-color:#937eff;
+    color:#937eff;
+
+}
+
+#notification-shape{
+    display: none;
+}
+
+#notification-shape2 path{
+    fill: green;
+}
+.ns-effect-flip{
+    background: #5aca82;
+}
+.ns-effect-jelly{
+    background: #fcb410;
+}
+.ns-box.ns-bar,.ns-box.ns-show, .ns-box.ns-visible{
+    z-index: 99999999 !important;
+}
+/*fixed header*/
+.fixed_header .lobibox-notify-wrapper.top,.fixed_header .notification-shape{
+    top:56px;
+}
+.header,.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+.left_aside{
+    z-index: 99 !important;
+}
+#scroll{
+    z-index: 999;
+}
+@media (max-width: 992px){
+    .lobibox-notify-wrapper.top,.notification-shape{
+        top:56px;
+    }
+}

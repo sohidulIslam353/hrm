@@ -1,0 +1,27 @@
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut{
+    stroke: #5aca82;
+}
+.ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut{
+    stroke: #937eff;
+}
+.ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut{
+    stroke:#fcb410;
+}
+.ct-series-d .ct-bar, .ct-series-d .ct-line, .ct-series-d .ct-point, .ct-series-d .ct-slice-donut{
+    stroke: #31d0d6;
+}
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie{
+    fill: #5aca82;
+}
+.ct-series-b .ct-area, .ct-series-b .ct-slice-pie{
+    fill: #937eff;
+}
+.ct-series-c .ct-area, .ct-series-c .ct-slice-pie{
+    fill: #fcb410;
+}
+.ct-series-d .ct-area, .ct-series-d .ct-slice-pie{
+    fill: #31d0d6;
+}
+.height_350{
+    height: 350px;
+}

@@ -1,0 +1,77 @@
+.fc .fc-button-group button,.fc-today-button{
+    margin:10px 10px 0 0 !important;
+}
+.fc-center{
+    margin-top: 15px;
+}
+.fc-state-disabled{
+    cursor: not-allowed !important;
+}
+.external_event{
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.fc-title{
+    color: #fff;
+}
+.fc-content{
+    padding: 5px;
+}
+.fc-event{
+    border: none;
+}
+/*dropdown colors*/
+.color_primary,.color_primary:hover{
+    background-color: #4fb7fe;
+}
+.color_success,.color_success:hover{
+    background-color: #00cc99;
+}
+.color_info,.color_info:hover{
+    background-color: #347dff;
+}
+.color_warning,.color_warning:hover{
+    background-color: #ff9933;
+}
+.color_danger,.color_danger:hover{
+    background-color: #EF6F6C ;
+}
+
+/*==================================top buttons=====================================*/
+.fc-button-group button,.fc-today-button{
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #5aca82;
+    color: #5aca82;
+}
+.fc-state-disabled{
+    border-radius: 5px;
+}
+.fc-state-active,.fc-today-button.fc-state-disabled{
+    background-color: #329cff !important;
+    color: #fff !important;
+    border: 1px solid #329cff !important;
+}
+button{
+    font-family: "Nunito Sans", sans-serif;
+}
+#calendar button:focus{
+    outline: none;
+}
+.fc-widget-header th{
+    color: #007bb8;
+}
+#calendar td{
+    border-color: #cbe0ea;
+}
+.header,.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+.left_aside{
+    z-index: 99 !important;
+}
+#scroll{
+    z-index: 999;
+}
+/*========================================End of buttons css=============================*/

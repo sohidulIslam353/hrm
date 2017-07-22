@@ -1,0 +1,14 @@
+.vector_maps{
+    height:400px;
+}
+.vector_maps .jqvmap-zoomin, .vector_maps .jqvmap-zoomout {
+    background-color: #937eff;
+    width: 25px;
+    height: 25px;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    padding: 8px;
+}
+.jqvmap-zoomout{
+    top: 40px;
+}

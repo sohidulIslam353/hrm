@@ -1,0 +1,13 @@
+.no-gutters .text-center{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.no-gutters .dotted{
+    padding:23px 0 18px 0;
+}
+.horizontal_align .col-4 ,.Offset_columns .row div{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px dashed rgba(18, 79, 127, 0.38);
+
+}

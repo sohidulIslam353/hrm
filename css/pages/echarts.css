@@ -1,0 +1,6 @@
+.echart_tooltip:nth-child(2){
+    z-index: 999;
+}
+.header{
+    z-index: 10000000;
+}

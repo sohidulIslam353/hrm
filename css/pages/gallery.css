@@ -1,0 +1,149 @@
+/*===========Start gallery1 css=================*/
+
+.ug-textpanel-title, .ug-lightbox-numbers
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.ug-lightbox-arrow-left,.ug-lightbox-arrow-right{
+    top:49% !important;
+}
+/*===========end gallery1 css=================*/
+
+/*===========start Video gallery css=================*/
+#gallery2
+{
+    max-width:100% !important;
+}
+.ug-strip-panel
+{
+    width: 40% !important;
+}
+.ug-videoplayer
+{
+    width: 60% !important;
+}
+.ug-thumb-title,.ug-thumb-desc
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*===========end Video gallery css=================*/
+
+/*===========Start gallery3 css=================*/
+.gallery3 {
+    width: 80%;
+    height: 200px;
+    margin: 150px auto 5%;
+    position: relative;
+}
+.page-container .navigation {
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.25);
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    transition: all 200ms ease-out;
+}
+.reload.bell {
+    font-size: 12px;
+    padding: 20px;
+    width: 45px;
+    text-align: center;
+    height: 47px;
+    border-radius: 50px;
+}
+
+.reload.bell #notification {
+    font-size: 25px;
+    line-height: 140%;
+}
+
+.reload{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.7em;
+    text-decoration: none;
+    color: #0D2633;
+    width: 100px;
+    line-height: 140%;
+    font-size: 17px;
+    font-weight: bold;
+}
+.clear {
+    width: auto;
+}
+
+.btns {
+    width: 410px;
+    margin: 50px auto;
+}
+.credit {
+    font-style: italic;
+    text-align: center;
+    color: #3D5455;
+    color: rgba(255,255,255,0.35);
+    padding: 10px;
+    margin: 0 0 40px 0;
+    float: left;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.credit a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(255,255,255,0.55);
+}
+
+.page-container {
+    max-width: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.page-container p{
+    font-size: 21px;
+    font-weight: 100;
+    line-height: 180%;
+}
+
+.page-container h3 {
+    font-size: 23px;
+}
+.fg-card, .fg-card > img {
+    border-radius: 3px;
+}
+
+.fg-caption {
+    color: white;
+    font-style: italic;
+    font-family:noto serif;
+    font-size: 24px;
+}
+@media (max-width:576px)
+{
+    .page-container .navigation {
+        margin-bottom: 150px;
+        margin-top: 0;
+    }
+}
+.content.gallery3_content{
+    overflow-y: hidden;
+}
+/*===========end gallery3 css=================*/
+
+/*===========================video gallery=========================*/
+.ug-strip-panel{
+    width: 40% !important;
+}
+/*======================End of video gallery=========================*/

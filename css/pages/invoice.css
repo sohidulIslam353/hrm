@@ -1,0 +1,22 @@
+span.font-weight-bold,td.font-weight-bold{
+    color: #0a3c5f;
+}
+.border_top_none{
+    border-top:none !important;
+}
+.table thead th{
+    border-bottom: 1px solid #607d8b;
+    border-top: 1px solid #607d8b;
+    color:#f86a67;
+}
+.border_top{
+    border-top: 1px solid #607d8b !important;
+}
+.payment_options img{
+    width:60px;
+}
+@media print{
+    .left_aside,.header,.content-header,.footer,.print_btn_section {
+        display:none;
+    }
+}

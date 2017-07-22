@@ -1,0 +1,51 @@
+
+.runner{
+    padding: 7px 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 300ms;
+    cursor:pointer;
+    border-radius: 0;
+}
+
+.runner.btn-outline-success{
+    border: 1px solid #5aca82;
+    border-top: 3px solid #5aca82 !important;
+}
+.runner.btn-outline-mint{
+    border: 1px solid #31d0d6;
+    border-top: 3px solid #31d0d6 !important;
+}
+.runner.btn-outline-danger{
+    border: 1px solid #f86a67;
+    border-top: 3px solid #f86a67 !important;
+}
+.runner.btn-outline-primary,.toastrshow.btn-outline-primary{
+    border: 1px solid #329cff;
+    border-top: 3px solid #329cff !important;
+}
+.runner.btn-outline-warning,.toastrshow.btn-outline-warning {
+    border: 1px solid #fcb410;
+    border-top: 3px solid #fcb410 !important;
+}
+.runner.btn-outline-info {
+    border: 1px solid #007bb8;
+    border-top: 3px solid #007bb8 !important;
+}
+.runner.btn-outline-purple {
+    border: 1px solid #937eff;
+    border-top: 3px solid #937eff !important;
+}
+.jconfirm-buttons .btn{
+    margin: 10px 10px 10px 0 !important;
+
+}
+.jconfirm-buttons button{
+    font-weight: bold !important;
+}
+.jconfirm-title{
+    font-family: "Nunito Sans", sans-serif;
+}
+.jconfirm-closeIcon{
+    top:15px !important;
+}

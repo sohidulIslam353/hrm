@@ -1,0 +1,53 @@
+
+.examples .card{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 10%,#9CE3F4 100%);
+    border-top: 4px solid #2dc3e8;
+}
+
+.source{
+    width: 90%;
+}
+.swal2-modal .swal2-cancel, .swal2-modal .swal2-confirm{
+    margin: 5px !important;
+}
+.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep,.swal2-progresssteps .swal2-progressline,
+.swal2-progresssteps .swal2-progresscircle{
+    background:#00c0ef;
+}
+
+.card h5{
+    margin-bottom: 0;
+}
+.swal2-icon.swal2-error{
+    border-color:#f86a67;
+}
+.swal2-icon.swal2-error .line{
+    background-color: #f86a67;
+}
+.swal2-icon.swal2-success{
+    border-color: #5aca82;
+}
+.swal2-icon.swal2-success .line{
+    background-color: #5aca82;
+
+}
+.swal2-icon.swal2-warning{
+    border-color: #fcb410;
+    color:#fcb410;
+}
+.swal2-icon.swal2-info{
+    color:#329cff;
+    border-color:#329cff;
+}
+.swal2-modal{
+    font-family:"Nunito Sans", sans-serif;
+}
+.header,.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+.left_aside{
+    z-index: 99 !important;
+}
+#scroll{
+    z-index: 999;
+}

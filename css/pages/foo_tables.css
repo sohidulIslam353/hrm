@@ -1,0 +1,128 @@
+.fooicon-sort:before{
+    content:"\e657";
+    font-family: themify;
+}
+.fooicon-sort-desc:before{
+    content:"\e627";
+    font-family: themify;
+}
+.fooicon-sort-asc:before{
+    content:"\e62a";
+    font-family: themify;
+}
+.fooicon-minus:before{
+    content:"\e622";
+    font-family: themify;
+    font-weight: bold;
+    color:#111;
+}
+.fooicon-plus:before{
+    content:"\e61a";
+    font-family: themify;
+    font-weight: bold;
+    color:#111;
+}
+.fooicon-pencil:before {
+    content: "\e626";
+    font-family: themify;
+    color:#329cff;
+}
+.fooicon-trash:before{
+    content: "\e605";
+    font-family: themify;
+    color:#f86a67;
+}
+.fooicon-search:before{
+    content: "\e610";
+    font-family: themify;
+}
+
+
+.footable-edit.btn,.footable-delete.btn{
+    padding: 0.2rem 0.3rem;
+}
+
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+    margin-left: 4px;
+}
+.hidden,.input-group-btn{
+    display: none !important;
+}
+.card-group{
+    display: block;
+}
+.footable-editing .btn-primary .fooicon-pencil:before{
+    color:#fff !important;
+
+}
+/*------------pagination--------------*/
+table.footable>tfoot>tr.footable-paging>td>ul.pagination {
+    margin: 10px 0 0;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+table.footable>tfoot>tr.footable-paging>td>ul.pagination {
+    margin: 10px 0 0;
+}
+
+table.footable-paging-center>tfoot>tr.footable-paging>td, table.footable.footable-filtering-center>thead>tr.footable-filtering>th, table.footable>tfoot>tr.footable-paging>td {
+    text-align: center;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.footable-filtering input{
+    border-radius:0;
+}
+table>tbody>tr>td>span.footable-toggle{
+    opacity: 0.6 !important;
+}
+.modal-content{
+    margin-top:100px;
+}
+.footable-filtering th{
+    border-top: 0;
+}
+.modal{
+    top: 0 !important;
+}
+.header,.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+.left_aside{
+    z-index: 99 !important;
+}
+#scroll {
+    z-index: 999;
+}

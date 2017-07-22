@@ -1,0 +1,57 @@
+.modal{
+    top:0;
+}.page_header{
+    border-bottom: 1px solid #ddd;
+}
+.icons_list .font_text,.icons_list2 .font_text,.btn{
+    cursor: pointer;
+}
+.icons_list .font_text,.icons_list2 .font_text{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+.icons_list .font_text{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.icons_list2 .font_text{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+@keyframes animate_icon_grow {
+    to {
+        font-size: 35px;
+    }
+}
+.icon_padding .font_text:hover{
+    padding-top: 5px;
+}
+.icons_list .fa_icon .font_text:hover i{
+    animation-name: animate_icon_grow;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color:#5aca82;
+}
+.icons_list .fa_icon .font_text:hover{
+    border:2px solid #5aca82;
+}
+.header,.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+.left_aside{
+    z-index: 99 !important;
+}
+#scroll{
+    z-index: 999;
+}

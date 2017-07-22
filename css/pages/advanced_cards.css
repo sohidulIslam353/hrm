@@ -1,0 +1,238 @@
+.card{
+    margin-bottom: 0;
+}
+.card-block
+{
+    padding: 1.25rem;
+}
+.card-cascade{
+    margin-bottom: 0;
+}
+
+.wider{
+    background-color: transparent;
+    border:0;
+}
+.wider .card-block
+{
+    border: 1px solid #eee;
+}
+.card-cascade.narrower .view, .wider .card-block
+{
+    background-color: #fff;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.card-cascade.narrower .view {
+    margin-top: -15px;
+    border-radius: 5px;
+}
+.card-cascade .view
+{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+}
+.card-cascade img
+{
+    border-radius: 3px;
+}
+.default-color-dark
+{
+    background: url('../../../../mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(13).jpg');
+    height:150px;
+    border-radius: 3px 3px 0 0;
+}
+
+.card5_bg
+{
+    background: url('../../img/cardsimg1.jpg');
+    height: 200px;
+}
+
+.avatar img
+{
+    height: 100px;
+    margin-top: -50px;
+    margin-right: 4%;
+    float: right;
+    border: 1px solid #A2675F;
+}
+.card_date
+{
+    height: 39px;
+    width: 39px;
+    top:20px;
+    position: absolute;
+    right:20px;
+    border-radius: 46px;
+    text-align: center;
+}
+.card_month
+{
+    padding:0;
+    margin: 0;
+    line-height: 0;
+}
+.card5_button
+{
+    left: 0;
+    top: 169px;
+    position: absolute;
+}
+.card5_button button
+{
+    cursor: pointer;
+}
+.card6_bg
+{
+    background: url('../../img/card6_img.jpg');
+    height: 150px;
+    border-radius: 3px 3px 0 0;
+}
+.card_social_icon
+{
+    position: absolute;
+    top: 135px;
+    right:0;
+}
+.card6_plus
+{
+    height: 30px;
+    width:30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    cursor: pointer;
+}
+.card6_fb
+{
+    background-color:#3b5998 ;
+    height: 30px;
+    width:30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    cursor: pointer;
+}
+.card6_twitter
+{
+    background-color:#0084b4 ;
+    height: 30px;
+    width:30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    cursor: pointer;
+}
+.card6_google
+{
+    background-color: #d34836 ;
+    height: 30px;
+    width:30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    cursor: pointer;
+}
+.card6_footer_icons i
+{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.card7_img_section
+{
+    box-shadow:0 3px #eee;
+}
+.shirt_clor
+{
+    height: 15px;
+    width: 15px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 5px;
+}
+.card8_top_section
+{
+    background:radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(254,182,69,0.92) 100%);
+}
+.price_tag_text{
+    margin-top: -20px;
+}
+.price_tag_text
+{
+    padding: 5px 10px;
+}
+.card9_top_section
+{
+    background-image:url('../../img/card6_img.jpg');
+    height: 250px;
+    border-radius: 3px 3px 0 0;
+}
+.share_icon
+{
+    font-size: 25px;
+    height:40px;
+    width: 40px;
+    border-radius: 40px;
+    text-align: center;
+    position: absolute;
+    top: 233px;
+    right: 30px;
+    cursor: pointer;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+}
+.card9_person_img
+{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+/*swiper and accordian cards css*/
+.card_img_height{
+    height: 230px;
+}
+.swiper_img_height{
+    height: 290px;
+}
+.border_bottom_gray{
+    border-bottom: 1px solid #ccc;
+}
+.border-0{
+    border: none;
+}
+#accordion .border_bottom_gray h6{
+    padding: 15px 0 10px;
+}
+.card_accordion
+{
+    padding-top: 0 !important;
+}
+/*swiper and accordian cards css*/
+/*color for social icons*/
+.fb_clr
+{
+    color: #3b5998;
+}
+.twit_clr
+{
+    color: #0084b4;
+}
+.google_clr
+{
+    color: #d34836;
+}
+.in_clr
+{
+    color: #4875B4;
+}

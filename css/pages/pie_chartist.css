@@ -1,0 +1,44 @@
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie{
+    fill:#007bb8;
+}
+.ct-series-b .ct-area, .ct-series-b .ct-slice-pie{
+    fill: #fcb410;
+}
+.ct-series-c .ct-area, .ct-series-c .ct-slice-pie{
+    fill: #5aca82;
+}
+#simple_pie_chart .ct-label{
+    color: #fff;
+    fill:#fff;
+}
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut{
+    stroke: #329cff;
+}
+.ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut{
+    stroke: #5aca82;
+}
+.ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut{
+    stroke: #fcb410;
+}
+.ct-series-d .ct-bar, .ct-series-d .ct-line, .ct-series-d .ct-point, .ct-series-d .ct-slice-donut{
+    stroke: #f86a67;
+}
+.ct-series-e .ct-bar, .ct-series-e .ct-line, .ct-series-e .ct-point, .ct-series-e .ct-slice-donut{
+    stroke: #937eff;
+}
+.ct-series-f .ct-bar, .ct-series-f .ct-line, .ct-series-f .ct-point, .ct-series-f .ct-slice-donut{
+    stroke: #31d0d6;
+}
+.ct-series-g .ct-bar, .ct-series-g .ct-line, .ct-series-g .ct-point, .ct-series-g .ct-slice-donut{
+    stroke: #007bb8;
+}
+#label_pie_chart .ct-label{
+    color: #536973;
+    fill:#536973;
+}
+@media (max-width: 640px){
+    #label_pie_chart .ct-label{
+        color: #fff ;
+        fill: #fff !important;
+    }
+}

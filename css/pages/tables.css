@@ -1,0 +1,285 @@
+/*--------simple data tables-----------*/
+
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting:after{
+    content: "\2193" !important;
+    opacity: 1;
+}
+table.dataTable thead .sorting_asc:after{
+    content: "\2191" !important;
+    opacity: 1;
+}
+
+.table-responsive{
+    padding:10px 0;
+    overflow-y: inherit;
+}
+.dataTables_paginate >ul> li {
+    list-style: none;
+    display: inline;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+div.dataTables_wrapper div.dataTables_paginate{
+    margin-top: 15px;
+}
+.dataTables_paginate >ul> li:first-child, .dataTables_paginate >ul> li:last-child {
+    background-color: #4fb7fe;
+}
+.dataTables_paginate >ul> .active {
+    background-color: #4fb7fe;
+}
+.dataTables_paginate >ul> li:first-child>a, .dataTables_paginate >ul> li:last-child>a{
+    color:#ffffff;
+}
+.dataTables_paginate >ul> .active a{
+    color:#fff;
+}
+.table{
+    width:100% !important;
+}
+.show_hide_tables .dataTables_wrapper {
+    margin-top: 10px ;
+}
+.disabled,.disabled a{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.disabled a:focus{
+    outline: none;
+}
+
+/*--------------Simple Tables-----------------*/
+.basic_tables .progress{
+    height: 6px;
+    width: 80%;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+.card .border_table .table-bordered button i{
+    font-weight: bold;
+}
+.card .border_table .table-bordered button{
+    margin-right: 5px;
+    margin-top:2px;
+}
+.card .basic_tables .badge,.card .basic_table2 .badge {
+    font-size: 100%;
+}
+.card .striped_table .user_face img ,.card .basic_table2 .user_face img {
+    width: 25px;
+    height: 25px;
+
+}
+.basic_table2 .user_face{
+    min-width:120px;
+}
+.card .basic_table2 .user_face img{
+    margin-right: 10px;
+}
+.card .border_table button{
+    padding-top: 8px;
+}
+/*------------------datatables-------------------*/
+#row_details{
+    width:100% !important;
+}
+table.dataTable tbody tr.selected{
+    background-color: #B0BED9;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before{
+    top:14px;
+}
+#editable_table.dataTable.nowrap td {
+    max-width: 200px;
+    overflow-x: auto;
+}
+.table-responsive .form-inline{
+    display:block;
+}
+#advanced_table3_filter,#users_table_filter{
+    margin-bottom: 20px;
+}
+div.dataTables_wrapper div.dataTables_length label{
+    text-align: left;
+}
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting:after{
+    content: "\2193" !important;
+}
+table.dataTable thead .sorting_asc:after{
+    content: "\2191" !important;
+}
+@media (min-width: 576px){
+    .form-inline label {
+display: block;
+    }
+}
+.pagination{
+    display: block;
+}
+.dataTables_scrollHeadInner{
+    width: 100% !important;
+}
+@media (max-width:767px){
+    #scroll_table_wrapper .dataTables_paginate >ul> li{
+        padding: 3px 2px;
+    }
+}
+/*----------------Advanced Datatables------------*/
+div.dataTables_length {
+    padding-left: 2em;
+}
+div.dataTables_length,
+div.dataTables_filter {
+    padding-top: 0.55em;
+}
+#multiple_control_filter,
+div.dataTables_wrapper div.dataTables_filter{
+    float:right;
+}
+#multiple_control{
+    margin-top: 25px !important;
+}
+div.dataTables_length{
+    padding-left: 0;
+}
+#mark_search_filter{
+    display:none;
+}
+table.dataTable th.focus, table.dataTable td.focus{
+    outline: 3px solid #3366FF;
+    outline-offset: -1px;
+}
+#events {
+    padding: 0.5rem;
+    background-color: #f6f6f6;
+    border: 1px solid #cac8c8;
+    border-radius: 3px;
+    height: 100px;
+    overflow: auto;
+}
+
+/*------------Responsive Flip Scroll Tables--------------*/
+
+.flip-scroll table {
+    width: 100%;
+}
+
+.flip-content thead > tr > th {
+    padding: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* 768px */
+    .flip-scroll .flip-content:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    div.dataTables_wrapper div.dataTables_info {
+        white-space: inherit;
+    }
+    .flip-scroll * html .flip-content {
+        zoom: 1;
+    }
+    .flip-scroll *:first-child + html .flip-content {
+        zoom: 1;
+    }
+    .flip-scroll table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    .flip-scroll th,
+    .flip-scroll td {
+        margin: 0;
+        vertical-align: top;
+    }
+    .flip-scroll th {
+        text-align: left;
+        border: 0 !important;
+        border-bottom: 1px solid #ddd !important;
+        border-right: 1px solid #ddd !important;
+        font-size: 13px !important;
+        padding: 5px;
+        width: auto !important;
+    }
+    .flip-scroll table {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .flip-scroll thead {
+        display: block;
+        float: left;
+    }
+    .flip-scroll tbody {
+        display: block;
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .flip-scroll thead tr {
+        display: block;
+    }
+    .flip-scroll th {
+        display: block;
+        text-align: right;
+    }
+    .flip-scroll tbody tr {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -5px;
+    }
+    .flip-scroll td {
+        display: block;
+        min-height: 1.25em;
+        text-align: left;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+    /* sort out borders */
+    .flip-scroll th {
+        border-bottom: 0;
+        border-left: 0;
+    }
+    .flip-scroll td {
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .flip-scroll tbody tr {
+        border-left: 1px solid #ddd;
+    }
+    .flip-scroll th:last-child,
+    .flip-scroll td:last-child {
+        border-bottom: 1px solid #ddd;
+    }
+    .dataTables_wrapper .dataTables_length .form-control,
+    .dataTables_wrapper .dataTables_filter .form-control {
+        display: inline-block;
+    }
+    .dataTables_wrapper .dataTables_info {
+        top: 17px;
+    }
+    .dataTables_wrapper .dataTables_paginate {
+        margin-top: -15px;
+    }
+}
+#autofill.table-bordered.dataTable tbody .odd td:first-child{
+    background-color: #eae8e8;
+}
+#autofill.table-bordered.dataTable tbody .even td:first-child{
+    background-color: #efeded;
+}
+@media (max-width: 375px){
+    div.dataTables_wrapper div.dataTables_filter input{
+        width: 75%;
+    }
+}

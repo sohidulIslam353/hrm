@@ -1,0 +1,14 @@
+@media (max-width: 445px){
+    .centered_logo .mce-floatpanel{
+        top:110px !important;
+    }
+}
+.footer.fixed-bottom{
+    z-index: 100 !important;
+}
+#right_section,.skin_settings{
+    z-index: 99 !important;
+}
+#scroll{
+    z-index: 999;
+}

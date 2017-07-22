@@ -1,0 +1,10 @@
+.grid-stack-item-content {
+    color: #fff;
+    text-align: center;
+    background-color: #31d0d6;
+    font-size: 22px;
+    cursor: move;
+}
+.ti-hand-open{
+    font-size: 64px;
+}
